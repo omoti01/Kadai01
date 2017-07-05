@@ -20,6 +20,7 @@ int main()
    if( flag==0 )
     printf("%d is prime number\n",num);
    else 
+
     printf("%d is not prime number\n”,num);
 
   return 0;
