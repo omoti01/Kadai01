@@ -1,4 +1,4 @@
-/*
+ï»¿/*
  * - Prime numbers -
  */
 #include <stdio.h>
@@ -8,7 +8,7 @@ int main()
   int num;
   int flag = 0;
  
-  printf("NumberF");
+  printf("Number:");
   scanf("%d", &num);
  
   for( i=2;i<num;++i ) {
@@ -20,7 +20,7 @@ int main()
    if( flag==0 )
     printf("%d is prime number\n",num);
    else if (flag !=0)
-    printf(g%d is not prime number\nh,num);
+    printf("%d is not prime number\nâ€,num);
 
   return 0;
 }
