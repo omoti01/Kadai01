@@ -1,0 +1,26 @@
+/*
+ * - Prime numbers -
+ */
+#include <stdio.h>
+int main()
+{
+  int i;
+  int num;
+  int flag = 0;
+ 
+  printf("NumberF");
+  scanf("%d", &num);
+ 
+  for( i=2;i<num;++i ) {
+    if( num%i==0 ) {
+      flag = 1;
+      break;
+    }
+  }
+   if( flag==0 )
+    printf("%d is prime number\n",num);
+   else if (flag !=0)
+    printf(g%d is not prime number\nh,num);
+
+  return 0;
+}
