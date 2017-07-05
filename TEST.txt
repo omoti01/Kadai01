@@ -18,6 +18,7 @@ BRANCH1
       break;
     }
   }
+BRANCH2
    if( flag==0 )
     printf("%d is prime number\n",num);
    else 
